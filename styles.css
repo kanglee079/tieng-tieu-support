@@ -153,6 +153,17 @@ section.block h2 { text-align: center; font-size: clamp(26px, 3.6vw, 36px); lett
 .tones { display: flex; gap: 8px; flex-wrap: wrap; justify-content: center; margin: 0 0 40px; }
 .tone { font-weight: 800; font-size: 14px; padding: 7px 13px; border-radius: 999px; color: #fff; }
 
+/* launch status */
+.launch-card {
+  display: flex; align-items: center; justify-content: space-between; gap: 28px;
+  background: var(--card); border: 1px solid var(--line); border-radius: 24px;
+  padding: clamp(26px, 5vw, 46px); box-shadow: var(--shadow);
+}
+.launch-card .kicker, .launch-card h2 { text-align: left; }
+.launch-card h2 { margin: 8px 0; }
+.launch-card p { margin: 0; color: var(--muted); }
+.launch-card .btn { flex: 0 0 auto; }
+
 /* footer */
 footer.site { margin-top: 84px; border-top: 1px solid var(--line); padding: 36px 0 46px; }
 footer.site .wrap { display: flex; flex-wrap: wrap; gap: 18px; align-items: center; }
@@ -172,4 +183,6 @@ footer.site .copy { width: 100%; color: var(--muted); font-size: 13px; margin-to
   .split h2, .split .kicker { text-align: center; }
   .split li { text-align: left; }
   .topnav a:not(.btn) { display: none; }
+  .launch-card { flex-direction: column; text-align: center; }
+  .launch-card .kicker, .launch-card h2 { text-align: center; }
 }
