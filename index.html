@@ -4,9 +4,9 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Học Tiếng Tiều — Học tiếng Triều Châu cho người Việt</title>
-<meta name="description" content="Học tiếng Triều Châu (tiếng Tiều) với 6.700+ mục từ, 4.600+ audio giọng bản xứ, 8 thanh điệu có màu và lộ trình 5 cấp. Đã có miễn phí trên App Store.">
+<meta name="description" content="Học Tiếng Tiều (tiếng Triều Châu) với 6.700+ mục từ, 4.600+ audio người thật, 8 thanh điệu có màu và lộ trình 5 cấp. Đã có miễn phí trên App Store.">
 <meta property="og:title" content="Học Tiếng Tiều — Đã có trên App Store">
-<meta property="og:description" content="Nghe giọng bản xứ, luyện đúng thanh, nhớ lời ông bà dạy. 6.700+ mục từ · 4.600+ audio · 471 bài học.">
+<meta property="og:description" content="Nghe giọng người Tiều thật, luyện đúng thanh, nhớ lời ông bà dạy. 6.700+ mục từ · 4.600+ audio · 471 bài học.">
 <meta property="og:image" content="https://kanglee079.github.io/tieng-tieu-support/assets/01-hom-nay.png">
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://kanglee079.github.io/tieng-tieu-support/">
@@ -35,8 +35,8 @@
   <div class="wrap">
     <div>
       <span class="eyebrow">Đã chính thức có mặt trên App Store</span>
-      <h1>Nghe giọng bản xứ.<br>Nhớ <span class="accent">lời ông bà</span> dạy.</h1>
-      <p class="lead">Học tiếng Tiều tự nhiên với hàng nghìn bản thu giọng bản xứ,
+      <h1>Nghe giọng người Tiều thật.<br>Nhớ <span class="accent">lời ông bà</span> dạy.</h1>
+      <p class="lead">Học Tiếng Tiều tự nhiên với hàng nghìn bản thu người thật,
       8 thanh điệu tô màu dễ nhớ, phiên âm kiểu Việt thân quen — và lộ trình
       dẫn bạn từ câu chào đầu tiên đến những mẩu chuyện cùng gia đình.</p>
       <div class="cta-row" id="tai-app">
@@ -78,7 +78,7 @@
       <span class="tone" style="background:#059669">8 sắc·ngắn</span>
     </div>
     <div class="grid3">
-      <div class="feature"><div class="ico">🔊</div><h3>Giọng bản xứ thật</h3>
+      <div class="feature"><div class="ico">🔊</div><h3>Giọng người Tiều thật</h3>
         <p>4.600+ bản thu người Tiều nói thật, nghe chậm được — không phải giọng máy đọc.</p></div>
       <div class="feature"><div class="ico">🎨</div><h3>8 thanh điệu tô màu</h3>
         <p>Mỗi thanh một màu, so với dấu tiếng Việt quen thuộc. Biến điệu (tone sandhi) được giải thích dễ hiểu.</p></div>
@@ -88,8 +88,8 @@
         <p>471 bài học từ Làm quen đến Văn hoá: chào hỏi, gia đình, đi chợ, gọi món, kể chuyện.</p></div>
       <div class="feature"><div class="ico">🧠</div><h3>Ôn tập ngắt quãng</h3>
         <p>Thẻ ôn SRS nhắc đúng lúc sắp quên, kèm thống kê thanh điệu bạn hay nhầm.</p></div>
-      <div class="feature"><div class="ico">👥</div><h3>Cộng đồng người Tiều</h3>
-        <p>Hỏi đáp với người biết tiếng, góp giọng vùng của bạn — Chợ Lớn, miền Tây, Campuchia, Thái Lan…</p></div>
+      <div class="feature"><div class="ico">👥</div><h3>Cách nói nhà mình</h3>
+        <p>Nội dung nền theo giọng Triều Châu chuẩn; bạn có thể góp cách nói Chợ Lớn, Sóc Trăng, Bạc Liêu, Cà Mau và các cộng đồng khác.</p></div>
     </div>
   </div>
 </section>
@@ -155,6 +155,18 @@
     <div class="copy">© 2026 KangXi · Làm bởi người Tiều, cho người Tiều. · Learn Teochew — the Teochew language app for Vietnamese speakers.</div>
   </div>
 </footer>
+
+<script>
+(() => {
+  const params = new URLSearchParams(window.location.search);
+  if (params.get("utm_campaign") !== "FBTestAug2026") return;
+
+  const campaignLink = "https://apps.apple.com/app/apple-store/id6803075590?pt=127423702&ct=FBTestAug2026&mt=8";
+  document.querySelectorAll('a[href^="https://apps.apple.com/"]').forEach((link) => {
+    link.href = campaignLink;
+  });
+})();
+</script>
 
 </body>
 </html>
